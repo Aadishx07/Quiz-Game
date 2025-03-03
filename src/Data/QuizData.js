@@ -1,53 +1,53 @@
 export const QuizData = [
     {
-        question: "Which language runs in a web browser?",
-        options: ["Java", "C", "Python", "JavaScript"],
+        question: "Which HTML tag is used to define an unordered list?",
+        options: ["<ol>", "<ul>", "<li>", "<list>"],
+        answer: 2
+    },
+    {
+        question: "Which of the following is a back-end programming language?",
+        options: ["HTML", "CSS", "JavaScript", "Python"],
         answer: 4
     },
     {
-        question: "What does CSS stand for?",
-        options: ["Central Style Sheets", "Cascading Style Sheets", "Cascading Simple Sheets", "Cars SUVs Sailboats"],
+        question: "Which HTTP method is used to send data to a server to create or update a resource?",
+        options: ["GET", "POST", "DELETE", "FETCH"],
         answer: 2
     },
     {
-        question: "What does HTML stand for?",
-        options: ["Hypertext Markup Language", "Hypertext Markdown Language", "Hyperloop Machine Language", "Helicopters Terminals Motorboats Lamborghinis"],
+        question: "What does SQL stand for?",
+        options: ["Structured Query Language", "System Query Language", "Sequential Question Language", "Server Query Language"],
         answer: 1
     },
     {
-        question: "What year was JavaScript launched?",
-        options: ["1996", "1995", "1994", "None of the above"],
-        answer: 2
-    },
-    {
-        question: "Which of the following is a JavaScript framework?",
-        options: ["React", "Laravel", "Django", "Spring"],
-        answer: 1
-    },
-    {
-        question: "What is the purpose of Git?",
-        options: ["Database management", "Version control", "Operating system development", "Text editing"],
-        answer: 2
-    },
-    {
-        question: "Which symbol is used for single-line comments in JavaScript?",
-        options: ["//", "/* */", "#", "--"],
-        answer: 1
-    },
-    {
-        question: "Which of the following is not a programming language?",
-        options: ["Python", "Java", "HTML", "C++"],
+        question: "Which JavaScript keyword is used to declare a constant variable?",
+        options: ["var", "let", "const", "static"],
         answer: 3
     },
     {
-        question: "Which company developed JavaScript?",
-        options: ["Microsoft", "Sun Microsystems", "Netscape", "Apple"],
+        question: "Which of the following is a CSS preprocessor?",
+        options: ["Sass", "Bootstrap", "Tailwind", "Materialize"],
+        answer: 1
+    },
+    {
+        question: "Which of the following is a NoSQL database?",
+        options: ["MySQL", "PostgreSQL", "MongoDB", "Oracle"],
         answer: 3
     },
     {
-        question: "What does API stand for?",
-        options: ["Application Programming Interface", "Applied Protocol Integration", "Advanced Programming Instructions", "Automated Process Implementation"],
-        answer: 1
+        question: "Which operator is used to compare both value and type in JavaScript?",
+        options: ["==", "!=", "===", "!=="],
+        answer: 3
+    },
+    {
+        question: "Which of the following is a Linux distribution?",
+        options: ["Windows", "Ubuntu", "MacOS", "Android"],
+        answer: 2
+    },
+    {
+        question: "Which data structure follows the LIFO principle?",
+        options: ["Queue", "Array", "Stack", "Linked List"],
+        answer: 3
     }
 ];
 
