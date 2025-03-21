@@ -41,6 +41,10 @@ function Quiz() {
         setScore(0);
     };
 
+    const progress = shuffledQuestions.length > 0 
+        ? ((currentQuestion + 1) / shuffledQuestions.length) * 100 
+        : 0;
+
     return (
         <div>
             <p className="heading-txt">Quiz APP</p>
@@ -53,6 +57,17 @@ function Quiz() {
                     />
                 ) : shuffledQuestions.length > 0 ? (
                     <>
+                        <div className="progress-container">
+                            <div className="progress-bar">
+                                <div 
+                                    className="progress-fill"
+                                    style={{ width: `${progress}%` }}
+                                ></div>
+                            </div>
+                            <div className="progress-text">
+                                Question {currentQuestion + 1} of {shuffledQuestions.length}
+                            </div>
+                        </div>
                         <div className="question">
                             <span id="question-number">{currentQuestion + 1}. </span>
                             <span id="question-txt">
